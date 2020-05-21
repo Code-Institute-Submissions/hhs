@@ -1,0 +1,267 @@
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,500,600,700|Dancing+Script:100,200,300,400,500,600,700');*/
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Exo+2&display=swap');
+/*-----------------------------------------------------Header*/
+
+.header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/hhs-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+.name {
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: "Exo2",sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    padding-left: 120px;
+}
+
+.motto {
+    color: #fff;
+    font-family: "Satisfy",sans-serif;
+    padding-left: 180px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px 120px 12px 120px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.navbar a:active {
+    background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/*-----------------------------------------------------Home/Index*/
+
+.home-image {
+    background: url("../images/home-image2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 480px; 
+}
+
+.about-us {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    min-height: 300px;
+    padding: 20px 100px 20px 100px;
+}
+
+.btn-secondary {
+    background-color: #555;
+    margin: 0 20px 0 20px;
+    font-family: "Exo 2", sans-serif;
+}
+
+/*-----------------------------------------------------Services*/
+
+.services-intro {
+    text-align: center;
+    margin: 20px 40px 20px 40px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.camera-image {
+    background: url("../images/hikvision-camera2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.alarm-image {
+    background: url("../images/alarm2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.access-control-image {
+    background: url("../images/access-control2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.fire-alarm-image {
+    background: url("../images/fire-alarm2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.services-description {
+    margin-top: 20px;
+    border-radius: 30px;
+    background: #555;
+    color: white;
+    padding: 20px;
+    border: 4px solid #4CAF50;
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+}
+
+/*-----------------------------------------------------Our Work*/
+
+.carousel {
+    position: relative;
+    width: 750px;
+    height: 562.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.reviews-left {
+    margin-top: 20px;
+}
+
+.reviews-left p {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.reviews-left i {
+    margin-left: 20px;
+    color: goldenrod;
+    font-size: 16px;
+}
+
+.reviews-right {
+    margin-top: 20px;
+}
+
+.reviews-right p {
+    font-size: 16px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.reviews-right i {
+    margin-right: 20px;
+    color: goldenrod;
+    font-size: 16px;
+}
+
+.quote {
+    font-family: "Exo 2", sans-serif;
+}
+
+.signature {
+    font-family: "Satisfy", sans-serif;
+}
+
+/*-----------------------------------------------------Contact*/
+
+.enquiry-form-header {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.form-group {
+    padding-left: 20px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.map-header {
+    padding-top: 20px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.map {
+    padding-bottom: 20px;
+}
+
+/*-----------------------------------------------------Footer*/
+
+footer {
+  background-color: #555;
+  color: #fff;
+  min-height: 120px;
+  margin: 0;
+  padding-top: 20px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.social-links {
+  padding-bottom: 15px;
+}
+
+.social-links li a i {
+  width: 40px;
+  height: 40px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 17px;
+  line-height: 14px;
+  text-align: center;
+  color: #fff;
+  background: #4CAF50;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #000;
+}
+
+.email {
+  color: #fff;
+  text-align: center;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.email:hover {
+  color: #4CAF50;
+}
