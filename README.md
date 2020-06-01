@@ -11,8 +11,8 @@ of methods, be it through the enquiry form, or the many links to our contact det
 When planning on how I wanted the website to look, I researched other home security websites. Most of which
 covered the whole nation, as such have taken the approach of an urban feel with high rise city landscapes as
 backgrounds and modern city centre style offices. This obviously attracts a different market to what we as a
-company reach out to, we cover Hertfordshire which predominantey is known for it's countrysides and rural
-lanscapes. For that reason, I wanted my website to look different from other home security websites but offer
+company reach out to, we cover Hertfordshire which predominantley is known for it's countrysides and rural
+landscapes. For that reason, I wanted my website to look different from other home security websites but offer
 the same features. I've gone for a less traditional header image of a rural landscape of Hertfordshire, and
 used green and grey colours throughout the website as I believe they compliment each other well, with the green
 tying in to the rural feel.
@@ -28,8 +28,8 @@ the social media links are always on the footer also.
 ### Home
 
 Once I had created the header and footer this was my framework for all pages. I felt that the home page didn't
-'shout' out what the company, so that is why I decided to add an image of security products directly below the
-header, followed by brief description of our business.
+'shout' out what the company done, so that is why I decided to add an image of security products directly below the
+header, followed by a brief description of our business.
 
 ### Services
 
@@ -163,13 +163,13 @@ For other IDEs, pease refer to their help section on how to run.
 * CCTV Camera image was obtained from: https://images.app.goo.gl/qUvqHeTfy25Ump7KA
 * Alarm panel image was obtained from: https://images.app.goo.gl/pBh5zbXe4dxhoA6c9
 * Access Control image was obtained from: https://images.app.goo.gl/Eg3mE9YLwWM61FU97
-* Fire Alarm image was obtined from: https://images.app.goo.gl/AdAGorrB53ZmSitQ7
+* Fire Alarm image was obtained from: https://images.app.goo.gl/AdAGorrB53ZmSitQ7
 
 ## Acknowledgements 
 
 * I received inspiration for this project from the Code Institute tutorial videos. I liked the idea of
 having the Header and Footer the same for each webpage, taught on the videos. Linking to the footer element,
-again, inspiration fromt the tutorial videos on the layout and sectioning of the footer which I really liked 
-the desogn of and thought would suit my website.
+again, inspiration from the tutorial videos on the layout and sectioning of the footer which I really liked 
+the design of and thought would suit my website.
 * I researched local competitors for inspiration on content/layout from: https://www.shebangsecurity.co.uk/
 * I used https://www.browserstack.com/ to test how site looked on different Internet Browsers
