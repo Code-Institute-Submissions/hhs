@@ -139,7 +139,9 @@ using the following commands; when a section of the site was completed/edited I 
 command git add followed by the files I wanted to add. I would then commit this add by using the command git commit -m
 followed by a message of what I am exactly adding, whether it be an edit to a sectiion or a finalised section of code.
 The final stage is to then use the command git push which completes the deployment process and adds the work to the master
-branch of the GitHub page. To run the code locally for example on GitPod, use the following command in the terminal:
+branch. To create the URL I then went ino the settings on my repository and went to GitHub pages section,
+and chose the GitHub pages site to be built from the Master Branch. To run the code locally for example on GitPod, use 
+the following command in the terminal:
 
 python3 -m http.server
 
