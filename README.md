@@ -1,4 +1,4 @@
-#First Milestone Project - Herts Home Security
+# First Milestone Project - Herts Home Security
 
 For my first milestone project I decided I wanted to make a website that meant something to me personally,
 potentially something that I could use. Alongside my current employment and my studies, I run a small family
@@ -17,7 +17,7 @@ the same features. I've gone for a less traditional header image of a rural land
 used green and grey colours throughout the website as I believe they compliment each other well, with the green
 tying in to the rural feel.
 
-##UX and Features
+## UX and Features
 
 The design of this website was built in mind for new potential customers, who are looking for CCTV,
 intruder alarms, etc. to be installed to their properties. The website has a static header and footer that is
@@ -25,13 +25,13 @@ the same across all the pages, that way the essential links are always available
 link back to the home page, the footer has contact details that includes a link to sending a direct email and
 the social media links are always on the footer also. 
 
-###Home
+### Home
 
 Once I had created the header and footer this was my framework for all pages. I felt that the home page didn't
 'shout' out what the company, so that is why I decided to add an image of security products directly below the
 header, followed by brief description of our business.
 
-###Services
+### Services
 
 I decided the services page would suit being the next page along from 'Home', as customers will want to see what
 services we have to offer. The layout and content of this page could be in much more detail and could have sub
@@ -41,7 +41,7 @@ improve this page by having sub pages for each service to go into more detail of
 on offer for each service. I also added a link to our contact page so that if the customer was happy with what
 they saw then they could go straight to getting in touch with us.
 
-###Our work
+### Our work
 
 Following on from the 'Services' page, I thought the 'Our Work' page next would be appropriate due to if customers
 liked the look of the services we offer then they would like to see our previous work. As we are a new business and
@@ -50,7 +50,7 @@ because that way the images can be large, as opposed to having multiple images d
 white space either side of the carousel so I thought a good idea would be to display reviews from previous customers,
 not only to fill the blank space but it linked in to the features of the page.
 
-###Contact
+### Contact
 
 The last page, quite traditionally is the 'Contact' page. My design before I set out to make the website always
 involved having an enquiry form and a map of where we are located as a visual representation. The enquiry form
@@ -61,7 +61,7 @@ researching on how to achieve this, it seems to involve JavaScript and learning 
 forward I would like to make the submit button send an email to the company email address with the information from
 the enquiry form.
 
-##Technologies Used
+## Technologies Used
 
 * HTML 5: Used to create the website
 * CSS 3: Used to style the wesite
@@ -71,7 +71,7 @@ the enquiry form.
 * [Google Maps](https://www.google.co.uk/maps/): Used to create map for contact page.
 * Windows Photo Editor: Used to change size of images to suit website
 
-##Testing
+## Testing
 
 To test the functionality and how my website looked on varying scren sizes/devices I used Chrome Developer tools
 throughout the project. There were plenty of challenges along the way with how making sure my website was acceptable
@@ -132,7 +132,7 @@ there is a user interaction I have tested it by using the following steps:
 Other testing tools used included: https://www.browserstack.com/ to test how my site looked and worked on different internet
 browsers such as Google Chrome, Mozilla Firefox, Internet Explorer, etc.
 
-##Deployment
+## Deployment
 
 The code for this website was written using GitPod and deployed to GitHub pages. The way this was achieved was by
 using the following commands; when a section of the site was completed/edited I would add this to GitHub by using the
@@ -147,16 +147,16 @@ python3 -m http.server
 
 For other IDEs, pease refer to their help section on how to run.
 
-##Credits
+## Credits
 
-###Content
+### Content
 
 * All text content in the website was written by myself, with no other influences.
 * Navigation bar code was obtained from: https://www.w3schools.com/howto/howto_css_navbar_icon.asp
     * I customised the code to suit the website including the styling in CSS
 * 
 
-###Media
+### Media
 
 * The header image (.logo) was obtained from: https://hertfordshire-focus.co.uk/
 * The Home page banner image was obtained from: https://www.alarm-supplies.co.uk/
@@ -165,7 +165,7 @@ For other IDEs, pease refer to their help section on how to run.
 * Access Control image was obtained from: https://images.app.goo.gl/Eg3mE9YLwWM61FU97
 * Fire Alarm image was obtined from: https://images.app.goo.gl/AdAGorrB53ZmSitQ7
 
-##Acknowledgements 
+## Acknowledgements 
 
 * I received inspiration for this project from the Code Institute tutorial videos. I liked the idea of
 having the Header and Footer the same for each webpage, taught on the videos. Linking to the footer element,
