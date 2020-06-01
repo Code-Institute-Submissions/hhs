@@ -77,7 +77,7 @@ To test the functionality and how my website looked on varying scren sizes/devic
 throughout the project. There were plenty of challenges along the way with how making sure my website was acceptable
 and fit for purpose on different screen sizes. Starting at the top, my navbar included icons on larger screens but
 became too cramped on smaller screens so used media queries to hide them when the screen went below a certain width. 
-I could've made a cascading navbar but preferred the horizontal look throughout the whole site. Whilst testing, I also
+I could've made a burger style navbar but preferred the horizontal look throughout the whole site. Whilst testing, I also
 noticed that my 'Services' page did not suit smaller devices by having the passage of writing and image next to it, as
 the screen width is too narrow on smaller devices. The images aren't a neccessity so I hid the images when on smaller
 devices using the built in bootstrap col rules, e.g col-3 d-none d-lg-block to only show image on large devices. Again,
