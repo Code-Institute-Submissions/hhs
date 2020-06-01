@@ -22,7 +22,7 @@ tying in to the rural feel.
 The design of this website was built in mind for new potential customers, who are looking for CCTV,
 intruder alarms, etc. to be installed to their properties. The website has a static header and footer that is
 the same across all the pages, that way the essential links are always available. The header image/writing is a
-link back to the home page, the footer has contact details taht includes a link to sending a direct email and
+link back to the home page, the footer has contact details that includes a link to sending a direct email and
 the social media links are always on the footer also. 
 
 ###Home
@@ -73,7 +73,77 @@ the enquiry form.
 
 ##Testing
 
+To test the functionality and how my website looked on varying scren sizes/devices I used Chrome Developer tools
+throughout the project. There were plenty of challenges along the way with how making sure my website was acceptable
+and fit for purpose on different screen sizes. Starting at the top, my navbar included icons on larger screens but
+became too cramped on smaller screens so used media queries to hide them when the screen went below a certain width. 
+I could've made a cascading navbar but preferred the horizontal look throughout the whole site. Whilst testing, I also
+noticed that my 'Services' page did not suit smaller devices by having the passage of writing and image next to it, as
+the screen width is too narrow on smaller devices. The images aren't a neccessity so I hid the images when on smaller
+devices using the built in bootstrap col rules, e.g col-3 d-none d-lg-block to only show image on large devices. Again,
+on the 'Our Work' page, the quotes along either side of the carousel work nicely on larger screens but became too
+elongated on smaller devices so they become hidden on smaller devices. The quotes were mostly to fill the white space
+either side of the bootstrap carousel which is the main purpose of the page, to show images of previous work. Lastly,
+on the 'Contact' page, it is displayed in a simple 50/50 split vertically, with enquiry form on the left and interactive
+map on the right, this works perfectly fine and is responsive all the way up to mobile devices where they then cascade,
+one underneath each other which works very well on mobile. All other areas of the website are automatically reponsive,
+including images and text so only a few media queries have been needed. 
+
+There are not too many areas of the website where the user has to interact with the page to achieve something, but where
+there is a user interaction I have tested it by using the following steps:
+
+* Header Image is a link that will take the user back to the home page.
+  1. Go to 'Services' page, click on header image, takes you back to 'Home'
+  2. Go to 'Our Work' page, click on header image, takes you back to 'Home'
+  3. Go to 'Contact' page, click on header image, takes you back to 'Home'
+
+* Check buttons on home page direct to correct page.
+  1. Go to 'Home' page, scroll down to the 'Our Services' button, click on button and takes to 'Services' page.
+  2. Go to 'Home' page, scroll down to the 'Contact Us' button, click on button and takes to 'Contact' page.
+
+* Ensure that the email link in the footer opens up option to email the company
+  1. Go to all pages and scroll down to the footer section, click on email address link, opens up option to email company.
+
+* Check that all social media icons in the footer link to relevant/correct social media pages and opens in new browser tab.
+  1. Go to all pages and scroll down to the footer section, click on Facebook icon, opens up correct Facebook page in new tab
+  2. Go to all pages and scroll down to the footer section, click on Twitter icon, opens up correct Twitter page in new tab
+  3. Go to all pages and scroll down to the footer section, click on Instagram icon, opens up correct Instagram page in new tab
+  4. Go to all pages and scroll down to the footer section, click on YouTube icon, opens up correct YouTube page in new tab
+
+* Check button on 'Services' page directs to 'Contact' page
+  1. Go to 'Services' page
+  2. Click on the 'Contact Us' button, takes you to 'Contact' page
+
+* Ensure Bootstrap Carousel
+  1. Go to 'Our Work' page
+  2. Use arrows on Bootstrap Carousel to go through all images making sure they appear correctly.
+  3. Watch the carousel cycle through images automatically, ensuring all images feature correctly.
+
+* Interactive Map
+  1. Go to 'Contact' page
+  2. Click and drag on the map to check it can be interacted with
+  3. Use the -/+ buttoms on the map to check minimise and maximise works
+  4. Ensure the pin on the map is correctly located for the company's location.
+
+* Enquiry From
+  1. Submit button ideally would send the information in the form to the company in the form of an email.
+  2. Details do not submit as code to do this is unknown as yet.
+
+Other testing tools used included: https://www.browserstack.com/ to test how my site looked and worked on different internet
+browsers such as Google Chrome, Mozilla Firefox, Internet Explorer, etc.
+
 ##Deployment
+
+The code for this website was written using GitPod and deployed to GitHub pages. The way this was achieved was by
+using the following commands; when a section of the site was completed/edited I would add this to GitHub by using the
+command git add followed by the files I wanted to add. I would then commit this add by using the command git commit -m
+followed by a message of what I am exactly adding, whether it be an edit to a sectiion or a finalised section of code.
+The final stage is to then use the command git push which completes the deployment process and adds the work to the master
+branch of the GitHub page. To run the code locally for example on GitPod, use the following command in the terminal:
+
+python3 -m http.server
+
+For other IDEs, pease refer to their help section on how to run.
 
 ##Credits
 
@@ -100,3 +170,4 @@ having the Header and Footer the same for each webpage, taught on the videos. Li
 again, inspiration fromt the tutorial videos on the layout and sectioning of the footer which I really liked 
 the desogn of and thought would suit my website.
 * I researched local competitors for inspiration on content/layout from: https://www.shebangsecurity.co.uk/
+* I used https://www.browserstack.com/ to test how site looked on different Internet Browsers

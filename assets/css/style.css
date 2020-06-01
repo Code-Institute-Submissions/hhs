@@ -43,7 +43,8 @@
 
 .navbar a {
   text-align: center;
-  padding: 12px 120px 12px 120px;
+  /*padding: 12px 120px 12px 120px;*/
+  padding: 1% 2%;
   color: white;
   text-decoration: none;
   font-size: 17px;
@@ -65,11 +66,7 @@
 /*-----------------------------------------------------Home/Index*/
 
 .home-image {
-  background: url("../images/home-image2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  min-height: 480px;
+  width: 100%;
 }
 
 .about-us {
@@ -142,11 +139,11 @@
 
 .carousel {
   position: relative;
-  width: 750px;
-  height: 562.5px;
+  /*width: 750px;
+  height: 562.5px;*/
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 50px;
+  /*margin-left: 50px;*/
 }
 
 .reviews-left {
@@ -155,11 +152,11 @@
 
 .reviews-left p {
   font-size: 16px;
-  margin-left: 20px;
+  margin-left: 5%;
 }
 
 .reviews-left i {
-  margin-left: 20px;
+  margin-left: 5%;
   color: goldenrod;
   font-size: 16px;
 }
@@ -170,12 +167,12 @@
 
 .reviews-right p {
   font-size: 16px;
-  margin-right: 20px;
+  margin-right: 5%;
   text-align: right;
 }
 
 .reviews-right i {
-  margin-right: 20px;
+  margin-right: 5%;
   color: goldenrod;
   font-size: 16px;
 }
@@ -259,18 +256,15 @@ footer {
 
 /*-----------------------------------------------------Media Queries*/
 
-@media screen and (max-width: 500px) {
+/*@media screen and (max-width: 500px) {
   .navbar a {
     float: none;
     display: block;
   }
-}
+}*/
 
 /* On screens that are 375px or less (Mobile S)*/
 @media screen and (min-width: 320px) and (max-width: 375px) {
-  .navbar a {
-    padding: 5px;
-  }
 
   .navbar i {
     display: none;
@@ -289,12 +283,6 @@ footer {
     font-size: 28px;
   }
 
-  .home-image {
-    background-size: 100%;
-    background-position: top;
-    min-height: 134px;
-  }
-
   .about-us {
     padding: 15px;
     font-size: 14px;
@@ -307,12 +295,6 @@ footer {
 
   .services-description {
     font-size: 14px;
-  }
-
-  .carousel {
-    width: 100%;
-    margin: 20px 0 20px 0;
-    max-height: 235px;
   }
 
   .map {
@@ -339,9 +321,6 @@ footer {
 
 /* On screens that are 375px or less (Mobile)*/
 @media screen and (max-width: 425px) and (min-width: 375px) {
-  .navbar a {
-    padding: 10px;
-  }
 
   .navbar i {
     display: none;
@@ -360,12 +339,6 @@ footer {
     font-size: 28px;
   }
 
-  .home-image {
-    background-size: 100%;
-    background-position: top;
-    min-height: 170px;
-  }
-
   .about-us {
     padding: 20px;
     font-size: 14px;
@@ -378,12 +351,6 @@ footer {
 
   .services-description {
       font-size: 14px;
-  }
-
-  .carousel {
-    width: 100%;
-    margin: 20px 0 20px 0;
-    max-height: 290px;
   }
 
   .map {
@@ -406,9 +373,6 @@ footer {
 
 /* On screens that are 425px or more (Tablets)*/
 @media screen and (min-width: 425px) and (max-width: 768px) {
-  .navbar a {
-    padding: 10px;
-  }
 
   .navbar i {
     display: none;
@@ -416,7 +380,7 @@ footer {
 
   .name {
     text-align: center;
-    margin-top: 110px;
+    margin-top: 80px;
     padding: 0;
     font-size: 50px;
   }
@@ -427,24 +391,12 @@ footer {
     font-size: 28px;
   }
 
-  .home-image {
-    background-size: 100%;
-    background-position: top;
-    min-height: 290px;
-  }
-
   .about-us {
     padding: 20px;
   }
 
   .services-intro {
     margin: 20px;
-  }
-
-  .carousel {
-    width: 100%;
-    margin: 20px 0 20px 0;
-    max-height: 560px;
   }
 
   .map {
@@ -467,22 +419,6 @@ footer {
     max-width: 470px;
   }
 
-  .carousel {
-    width: 100%;
-    padding-right: 160px;
-    
-  }
-
-  .home-image {
-    background-size: 100%;
-    background-position: top;
-    min-height: 390px;
-  }
-
-  .navbar a {
-    padding: 12px 40px 12px 40px;
-  }
-
   .name {
     text-align: center;
     margin-top: 90px;
@@ -494,55 +430,9 @@ footer {
     padding: 0;
   }
 
-  .reviews-left {
-    margin-top: 20px;
-  }
-
-  .reviews-left p {
-    font-size: 12px;
-    margin-left: 20px;
-  }
-
-  .reviews-left i {
-    margin-left: 20px;
-    color: goldenrod;
-    font-size: 4px;
-    letter-spacing: 0.1em;
-  }
-
-  .reviews-right {
-    margin-top: 20px;
-  }
-
-  .reviews-right p {
-    font-size: 12px;
-    margin-right: 20px;
-    text-align: right;
-  }
-
-  .reviews-right i {
-    margin-right: 20px;
-    color: goldenrod;
-    font-size: 4px;
-    letter-spacing: 0.1em;
-  }
 }
 
 /* On screens that are 1024px or more (Laptop L) */
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-  .home-image {
-    background-size: 100%;
-    background-position: top;
-    min-height: 560px;
-  }
-
-  .carousel {
-      max-width: 100%;
-      margin-left: 90px;
-  }
-
-  .navbar a {
-      padding: 12px 70px 12px 70px;
-  }
 
 }
